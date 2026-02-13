@@ -1,0 +1,47 @@
+name: bharatpath_ai2
+description: A personalized cultural discovery platform for India's heritage
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.0  # ✅ Add this line (adjust version based on your Flutter)
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # Firebase
+  firebase_core: ^2.24.2
+  cloud_firestore: ^4.13.6
+  firebase_auth: ^4.15.3
+  
+  # Image & Camera
+  image_picker: ^1.0.7
+  image: ^4.1.7
+  
+  # Google APIs
+  google_mlkit_image_labeling: ^0.10.0
+  google_mlkit_text_recognition: ^0.11.0
+  http: ^1.2.0
+  
+  # Location
+  geolocator: ^11.0.0
+  geocoding: ^2.1.1
+  
+  # UI
+  cached_network_image: ^3.3.1
+  shimmer: ^3.0.0
+  google_fonts: ^6.1.0
+  
+  # State Management
+  provider: ^6.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
