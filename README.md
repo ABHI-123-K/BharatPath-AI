@@ -84,9 +84,4 @@ The app builds a **Cultural Interest Profile** for personalized recommendations.
 
 ---
 
-## 📂 Suggested Folder Structure
 
-
-🚀 One-Line Pitch
-
-“BharatPath AI is a personalized cultural discovery app that helps users explore India’s heritage and understand the deeper meaning behind monuments and places.”
